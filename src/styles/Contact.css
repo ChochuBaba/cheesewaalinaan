@@ -78,3 +78,15 @@ form button {
   font-size: 15px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 650px)
+{
+  .contact
+  {
+    flex-direction: column;
+  }
+  .contact .rightSide h1 {
+    align-self: center;
+  }
+
+}
